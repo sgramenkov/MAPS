@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_sights">
+
+    <fragment
+        android:id="@+id/navigation_news"
+        android:name="com.example.tinder.ui.news.NewsFragment"
+        android:label="News"
+        tools:layout="News" />
+
+    <fragment
+        android:id="@+id/navigation_chat"
+        android:name="com.example.tinder.ui.chat.ChatFragment"
+        android:label="Chat"
+        tools:layout="Chat" />
+
+    <fragment
+        android:id="@+id/navigation_sights"
+        android:name="com.example.tinder.ui.sights.SightsFragment"
+        android:label="Sights"
+        tools:layout="Sights" />
+    <fragment
+        android:id="@+id/navigation_favorite"
+        android:name="com.example.tinder.ui.favorite.FavoriteFragment"
+        android:label="Favorite"
+        tools:layout="Favorite" />
+    <fragment
+        android:id="@+id/navigation_profile"
+        android:name="com.example.tinder.ui.profile.ProfileFragment"
+        android:label="Profile"
+        tools:layout="Profile" />
+</navigation>
